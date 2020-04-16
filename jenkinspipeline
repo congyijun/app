@@ -1,4 +1,4 @@
-node {
+node ('web1') {
    stage('Checkout') { 
        checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'f0538f77-b611-4f55-a6c6-8d140ec9c6a1', url: 'https://github.com/congyijun/app.git']]])
    }
