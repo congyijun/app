@@ -4,11 +4,17 @@ node {
    }
    stage('Build') {
       echo 'Start Build'
+      echo 'Start Build'
+      echo 'Start Build'
    }
    stage('Deploy') {
       echo 'Deploy---------'
+      echo 'Deploy---------'
+      echo 'Deploy---------'
    }
    stage('Test') {
+      echo 'Test Test Test Test Test'
+      echo 'Test Test Test Test Test'
       echo 'Test Test Test Test Test'
    }
 }
